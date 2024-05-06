@@ -1,0 +1,365 @@
+body {
+margin: 0px;
+padding: 0px;
+font-family: Verdana, Georgia, ariel, sans-serif;
+font-size: 12px;
+color: #000;
+background: #FFFFFF;
+background-color: #000000;
+border-color: #000000;
+}
+
+table {
+font-family: verdana, Georgia, ariel, sans-serif;
+font-size: 12px;
+text-align: left;
+}
+td link {color:#0000FF;}
+TD.blackbar {background-image: url(images/blackbar.gif);}
+
+
+A:link {color: #FF0000;text-decoration: none;}
+A:visited {color: #FF0000;text-decoration: none;}
+A:active {color: #FF0000;text-decoration: none;}
+A:hover {color: #FFCC33;text-decoration: none;}
+A.blue:link {color: #0000FF;text-decoration: none;}
+A.blue:visited {color: #0000FF;text-decoration: none;}
+A.blue:active {color: #0000FF;text-decoration: none;}
+A.blue:hover {color: #0099FF;text-decoration: none;}
+A.gold:link {color: #FFCC00;text-decoration: none;}
+A.gold:visited {color: #FFCC00;text-decoration: none;}
+A.gold:active {color: #FFCC00;text-decoration: none;}
+A.gold:hover {color: #FFFF00;text-decoration: none;}
+A.green:link {color: #009900;text-decoration: none;}
+A.green:visited {color: #009900;text-decoration: none;}
+A.green:active {color: #009900;text-decoration: none;}
+A.green:hover {color: #0033ff;text-decoration: none;}
+A.white:link {color: #FFFFFF;text-decoration: none;}
+A.white:visited {color: #FFFFFF;text-decoration: none;}
+A.white:active {color: #FFFFFF;text-decoration: none;}
+A.white:hover {color: #CCCCCC;text-decoration: none;}
+
+TD {font-family: Verdana,Arial;font-size: 12px;}
+P {font-family: Verdana,Arial;font-size: 12px;}
+HR {color: #FF0000;height: 1px;}
+
+.style1B  {
+	font-family: verdana, Georgia, ariel, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.style1  {
+	font-family: verdana, Georgia, ariel, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+}	
+.style1R  {
+	font-family: verdana, Georgia, ariel, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #CC0000;
+}
+.style1Y  {
+	font-family: verdana, Georgia, ariel, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFCC00;
+}
+.style1G  {
+	font-family: verdana, Georgia, ariel, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #009900;
+}
+.style2B {
+	font-family: verdana, Georgia, ariel, sans-serif;	
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+.style2  {
+	font-family: verdana, Georgia, ariel, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.style2R  {
+	font-family: verdana, Georgia, ariel, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #CC0000;
+	text-decoration: none;
+}
+.style2Y  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFCC00;
+}
+.style3B  {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.style3Bl  {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0000FF;
+	text-decoration: none;
+}
+.style3  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.style3R  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #CC0000;
+}
+.style3Y  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFCC00;
+}
+.style3G  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #009900;
+}
+.style4B  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+.style4Bl  {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0000FF;
+	text-decoration: bold;
+}
+.style4  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.style4O  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF6600;
+}.style4R  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #CC0000;
+}
+.style4RL  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF0000;
+}
+.style4Y  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFCC00;
+}
+.style4G  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #009900;
+}
+.style4LG  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #00FF00;
+}
+.style4LB  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #3399FF;
+}
+.style5BK {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+.style5 {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.style5lb {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #3399FF;
+}
+.style5R  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF0000;
+}
+.style5Y  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFCC00;
+}
+.style5B  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #0000FF;
+}
+.style5DG  {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	color: #006600;
+}
+.style6 {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.style6B {
+	font-family: Verdana, Georgia, ariel, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+.style6Y  {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFCC00;
+}
+.style6R  {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF0000;	
+}
+.style6G  {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #00FF00;	
+}
+.style6LB  {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #3399FF;	
+}
+.style6DB  {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #0000FF;	
+}
+.style7Y  {
+	font-size: 20px;
+	font-style: mormal;
+	font-weight: bold;
+	color: #FFCC00
+  
+}
+.style7w  {
+	font-size: 20px;
+	font-style: mormal;
+	font-weight: bold;
+	color: #FFFFFF
+  
+}.style8 {
+	font-family: verdana, Georgia, ariel, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal; 
+}
+.style10 {
+	font-family: verdana, Georgia, ariel, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #00FF00 
+}
+
+
+TABLE.cobtbl{
+background-color: #000000;
+} 
+TD.cobhl{
+background-color: #CCCCCC;
+}
+TD.cobll{
+background-color: #999999;
+color : #000000;
+}
+
+span.price, .detailprice, .prodprice {
+color: #009900;
+padding-top: 4px;
+font-size: 14px;
+font-weight:bold;
+text-align: center;
+} 
+
+
+
+	
+	
